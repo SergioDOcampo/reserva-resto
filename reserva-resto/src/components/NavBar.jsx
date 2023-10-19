@@ -1,12 +1,13 @@
 import React from 'react'
+import '../css/NavBar.css'
 
 const NavBar = () => {
     return (
         <>
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <h1>NavBar</h1>
+            <nav className="navbar bg-body-tertiary">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        <h1 className="icono">Vesubio Resto</h1>
                     </a>
                 </div>
             </nav>
